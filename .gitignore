@@ -1,0 +1,14 @@
+# Root ignores
+node_modules
+.DS_Store
+npm-debug.log
+.vscode
+
+# Backend ignores
+/backend/node_modules
+/backend/.env
+
+# Frontend ignores
+/frontend/node_modules
+/frontend/.env.local
+/frontend/.next
