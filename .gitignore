@@ -11,4 +11,5 @@ npm-debug.log
 # Frontend ignores
 /frontend/node_modules
 /frontend/.env.local
+/frontend/.env
 /frontend/.next

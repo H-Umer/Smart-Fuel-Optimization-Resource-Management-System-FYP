@@ -1,6 +1,6 @@
+const dotenv = require('dotenv');
 const express = require('express');
 const cors = require('cors');
-const dotenv = require('dotenv');
 const connectDB = require('./config/db');
 const authRoutes = require('./routes/auth');
 const vehicleRoutes = require('./routes/vehicles');
@@ -25,7 +25,7 @@ app.use('/api/fuel', fuelRoutes);
 app.use('/api/trips', tripRoutes);
 app.use('/api/budget', budgetRoutes);
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
 });
