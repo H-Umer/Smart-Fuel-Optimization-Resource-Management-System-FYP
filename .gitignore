@@ -13,3 +13,19 @@ npm-debug.log
 /frontend/.env.local
 /frontend/.env
 /frontend/.next
+
+
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+# Production Builds
+frontend/dist/
+
+# Environment Variables
+.env
+frontend/.env
+backend/.env
+
+# OS files
+.DS_Store
